@@ -1,7 +1,10 @@
-# HTML5 féléves feladat 2
+# HTML5 féléves feladat
 
-To set base URL of the project, create a `secrets.js` file in the `js` directory with the following content:
+Készítette Kecskés Milán Csaba (NYHOHE)
+
+`js/secrets.js` fájl tartalma:
 
 ```javascript
-var baseurl = "http://host/path/to/service/";
+var baseurl = "http://host/path";
+var auth = "username:password";
 ```

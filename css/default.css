@@ -3,7 +3,7 @@ body {
     font: normal 14px Helvetica, Arial, sans-serif;
 }
 
-#header{
+#menu{
     width: 100%;
     margin: 0;
     padding: 0 8px;
@@ -13,42 +13,45 @@ body {
     box-shadow: 0 1px 3px #000;
 }
 
-#header li {
+#menu li {
     display: inline-block;
     text-align: center;
-}
-
-#header a {
-    display: inline-block;
-    width: 150px;
+    padding: 0 20px;
     border-radius: 5px;
     color: #fff;
-    text-decoration: none;
+    cursor: pointer;
 }
 
-#header a:hover {
+#menu li:hover {
     background: rgba(255, 255, 255, .3);
 }
 
-#list {
+#content {
+    padding: 52px 8px 8px 8px;
+}
+
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#content thead th {
+    background: #6bc;
+    color: #fff;
+    height: 1.6em;
+}
+
+#content tbody td {
+    border-bottom: 1px solid #0ac;
+}
+
+#content tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.paramList {
     margin: 0;
-    padding: 50px 8px 8px 8px;
-}
-
-#list ul {
-    padding-left: 20px;
-}
-
-#list li {
+    padding: 0;
     list-style-type: none;
-}
-
-#list li.hide_descendants ul {
-    display: none;
-}
-
-.toggle_open {
-    width: 16px;
-    display: inline-block;
-    cursor: pointer;
+    line-height: 2;
 }
